@@ -1,0 +1,111 @@
+var document = new User();
+  bcrypt.hash("MunibHead123",10,function(err,hash){
+    document.username = "MunibHead"
+    document.password= hash
+    document.Date = ""
+    document.TimeIn =""
+    document.TimeOut = ""
+    document.NewTimeIn = ""
+    document.NewTimeOut = ""
+    document.Employ_type = "Admin"
+    document.manager_id= ""
+    document.code = "1"
+    document.Edit_Request = "OFF"
+    document.save();
+  })
+
+var document = new User();
+  bcrypt.hash("Ravia123",10,function(err,hash){
+    document.username = "Ravia"
+    document.password= hash
+    document.Date = ""
+    document.TimeIn =""
+    document.TimeOut = ""
+    document.NewTimeIn = ""
+    document.NewTimeOut = ""
+    document.Employ_type = "manager"
+    document.manager_id= "1"
+    document.code = "2"
+    document.Edit_Request = "OFF"
+    document.save();
+  })
+
+var document = new User();
+  bcrypt.hash("Quaint123",10,function(err,hash){
+    document.username = "Quanit"
+    document.password= hash
+    document.Date = ""
+    document.TimeIn =""
+    document.TimeOut = ""
+    document.NewTimeIn = ""
+    document.NewTimeOut = ""
+    document.Employ_type = "Developer"
+    document.manager_id= "1"
+    document.code = "3"
+    document.Edit_Request = "OFF"
+    document.save();
+  })
+
+var document = new User();
+  bcrypt.hash("Naveed123",10,function(err,hash){
+    document.username = "Naveed"
+    document.password= hash
+    document.Date = ""
+    document.TimeIn =""
+    document.TimeOut = ""
+    document.NewTimeIn = ""
+    document.NewTimeOut = ""
+    document.Employ_type = "Developer"
+    document.manager_id= "3"
+    document.code = "4"
+    document.Edit_Request = "OFF"
+    document.save();
+  })
+
+var document = new User();
+  bcrypt.hash("Afzal123",10,function(err,hash){
+    document.username = "Afzal"
+    document.password= hash
+    document.Date = ""
+    document.TimeIn =""
+    document.TimeOut = ""
+    document.NewTimeIn = ""
+    document.NewTimeOut = ""
+    document.Employ_Type = "Interni"
+    document.manager_id= "3"
+    document.code = "5"
+    document.Edit_Request = "OFF"
+    document.save();
+  })
+
+var document = new User();
+  bcrypt.hash("Munib123",10,function(err,hash){
+    document.username = "Munib"
+    document.password= hash
+    document.Date = ""
+    document.TimeIn =""
+    document.TimeOut = ""
+    document.NewTimeIn = ""
+    document.NewTimeOut = ""
+    document.Employ_type = "Interni"
+    document.manager_id= "3"
+    document.code = "6"
+    document.Edit_Request = "OFF"
+    document.save();
+  })
+
+var document = new User();
+  bcrypt.hash("Ahmed123",10,function(err,hash){
+    document.username = "Ahmed"
+    document.password= hash
+    document.Date = ""
+    document.TimeIn =""
+    document.TimeOut = ""
+    document.NewTimeIn = ""
+    document.NewTimeOut = ""
+    document.Employ_type = "Interni"
+    document.manager_id= "3"
+    document.code = "7"
+    document.Edit_Request = "OFF"
+    document.save();
+  })
